@@ -1,14 +1,17 @@
 {
   "scene_name": "village",
 
-  "prompt": "Wide shot of three people walking from far left edge to far right edge. People enter from left side of frame, walk across entire frame, exit right side. Dirt path through philippine village. Well-lit people with visible faces and clothing details. Bright natural lighting on people. Clear human features, realistic skin tones. Colorful traditional filipino clothing. Village buildings in background. Blue sky. Sharp focus, photorealistic",
+  "prompt": "Locked tripod camera, completely stationary camera, zero camera movement. Two Filipino men and two Filipino women walking at different speeds left to right, spaced apart, not touching. People enter from left edge, walk across frame, exit right edge. Each person walking at their own pace, some faster some slower. Camera locked on tripod, background perfectly still. Feet firmly on ground, realistic walking gait. Men in casual shirts and pants, women in traditional dress. Wide shot, dirt path, Philippine village, wooden buildings background, blue sky. Bright natural daylight. Photorealistic, high detail, crisp focus.",
 
-  "negative_prompt": "Dark silhouettes, shadowy people, black figures, underexposed people. Faceless, no facial features. Transparent, ghost-like, see-through, translucent. Static people, people not moving. Blurry, hazy, out of focus. Cropped bodies, people cut off at edges. Deformed, watermark, low quality",
+  "negative_prompt": "Camera movement, panning, tilting, rotating, zooming, camera zoom, dolly shot, crane shot. Camera panning down, camera panning up, camera panning left, camera panning right. Vertical camera movement, horizontal camera movement, diagonal camera movement. Camera following people, tracking shot, moving camera, handheld camera, shaky camera. People staying centered in frame, camera tracking subjects. All same walking speed, synchronized movement, walking in unison. Holding hands, touching, linked arms. All women, all men, same gender. People too close together, crowded. Floating, gliding, feet off ground. More than 4 people. Dark silhouettes, underexposed. Faceless, blurry faces. Deformed anatomy, low quality, watermark.",
 
-  "duration": 10,
-  "clip_length": 4,
+  "duration": 4,
   "steps": 40,
-  "width": 640,
-  "height": 480,
-  "guidance": 6.0
+  "width": 512,
+  "height": 416,
+  "guidance": 3.0,
+  "guidance_rescale": 0.0,
+  "decode_timestep": 0.05,
+  "decode_noise_scale": 0.025,
+  "max_sequence_length": 256
 }
