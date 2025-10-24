@@ -1,4 +1,0 @@
-#!/bin/bash
-
-source ~/.venvs/vid/bin/activate
-python3 walkclips.py
