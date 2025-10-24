@@ -1,0 +1,14 @@
+{
+  "scene_name": "village",
+
+  "prompt": "Wide shot of three people walking from far left edge to far right edge. People enter from left side of frame, walk across entire frame, exit right side. Dirt path through philippine village. Well-lit people with visible faces and clothing details. Bright natural lighting on people. Clear human features, realistic skin tones. Colorful traditional filipino clothing. Village buildings in background. Blue sky. Sharp focus, photorealistic",
+
+  "negative_prompt": "Dark silhouettes, shadowy people, black figures, underexposed people. Faceless, no facial features. Transparent, ghost-like, see-through, translucent. Static people, people not moving. Blurry, hazy, out of focus. Cropped bodies, people cut off at edges. Deformed, watermark, low quality",
+
+  "duration": 10,
+  "clip_length": 4,
+  "steps": 40,
+  "width": 640,
+  "height": 480,
+  "guidance": 6.0
+}
